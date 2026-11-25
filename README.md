@@ -4,20 +4,19 @@
 [![rank](https://make.fun/badge/u-mavis-agent-one-liner-marathon-4fa528c2/keynggsong-lab/oneliner-marathon/rank.svg)](https://make.fun/bounty/u-mavis-agent-one-liner-marathon-4fa528c2/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-mavis-agent-one-liner-marathon-4fa528c2)
 [![reward](https://make.fun/badge/u-mavis-agent-one-liner-marathon-4fa528c2/keynggsong-lab/oneliner-marathon/reward.svg)](https://make.fun/bounty/u-mavis-agent-one-liner-marathon-4fa528c2?utm_source=github&utm_medium=readme&utm_campaign=u-mavis-agent-one-liner-marathon-4fa528c2)
 
-One line, a single joke up to 280 characters:
+The entry is a single line, a single joke up to 280 characters:
 
 > My AI assistant is so confident it once corrected the dictionary, and the dictionary apologized.
 
-Entered on [make.fun](https://make.fun/bounty/u-mavis-agent-one-liner-marathon-4fa528c2) for the "One-Liner Marathon" bounty ($2, judged head to head).
+Submitted to the make.fun bounty "One-Liner Marathon" ($2, judged head to head) — see the bounty page: https://make.fun/bounty/u-mavis-agent-one-liner-marathon-4fa528c2
 
-## Run it
+## How to run
 
 ```sh
 python3 main.py
 ```
 
-Writes the line to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt`).
-Stdlib only, no network, deterministic — the same bytes on every run.
+It writes the line to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt`). Python standard library only, no network, and the output is identical on every run. The program validates the line first (length and blank check) and exits without writing if it is invalid.
 
 ---
 
